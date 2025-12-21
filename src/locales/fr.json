@@ -40,5 +40,16 @@
   },
   "hof": {
     "waiting_members": "En attente de ses premiers membres"
+  },
+  "rules": {
+    "titre": "Règles des évènements",
+    "r1": "Surnom unique par ligne évolutive pour éviter les doublons",
+    "r2": "Toute technique de shasse est autorisée",
+    "r3": "Les jeux modifiés, moddés ou fangames sont interdits",
+    "submission": "Soumission d'un shiny",
+    "s1": "Envoyez la photo du résumé du pokémon avec le nom du jeu et la méthode utilisée via :",
+    "s2": "En taggant ",
+    "s3": "avec",
+    "s4": "Sur le canal"
   }
 }
