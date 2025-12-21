@@ -1,11 +1,28 @@
 <script setup lang="ts">
+import {useI18n} from 'vue-i18n'
+
+const { t, locale, availableLocales,  } = useI18n()
+
+
+const changeLocale = (event: Event) => {
+  locale.value = (event.target as HTMLSelectElement).value
+}
 
 </script>
 
 <template>
   <nav class="menu">
-    <router-link to="/shiny-hunting-masters">Accueil</router-link>
-    <router-link to="/shiny-hunting-masters/en">Règles</router-link>
+    <router-link to="/shiny-hunting-masters">{{ t('menu.home') }}</router-link>
+    <router-link to="/shiny-hunting-masters/en">{{ t('menu.rules') }}</router-link>
+    <select :value="locale" @change="changeLocale">
+      <option
+          v-for="l in availableLocales"
+          :key="l"
+          :value="l"
+      >
+        {{ t('menu.' + l) }}
+      </option>
+    </select>
   </nav>
 </template>
 
