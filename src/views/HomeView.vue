@@ -5,7 +5,7 @@ import Logo from "../components/Logo.vue";
 
 <template>
   <Logo></Logo>
-  EN
+  FR
 </template>
 
 <style scoped>

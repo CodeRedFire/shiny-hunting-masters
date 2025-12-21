@@ -13,7 +13,8 @@ const changeLocale = (event: Event) => {
 <template>
   <nav class="menu">
     <router-link to="/shiny-hunting-masters">{{ t('menu.home') }}</router-link>
-    <router-link to="/shiny-hunting-masters/en">{{ t('menu.rules') }}</router-link>
+    <router-link to="/shiny-hunting-masters/rules">{{ t('menu.rules') }}</router-link>
+    <router-link to="/shiny-hunting-masters/hall-of-fame">{{ t('menu.hof') }}</router-link>
     <select :value="locale" @change="changeLocale">
       <option
           v-for="l in availableLocales"
@@ -33,12 +34,25 @@ const changeLocale = (event: Event) => {
   justify-content: center;
   gap: 2em;
   padding: 12px 0px;
-  background-color: rgba(0,0,0,0.5);
-  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.75);
+  font-size: 1em;
 }
 a {
   color: #f9f9f9;
   font-weight: 300;
   text-decoration-color: #f9f9f9;
+}
+select {
+  background-color: transparent;
+  color: #f9f9f9;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+}
+option {
+  background-color: rgba(0,0,0,0.75);
+
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
 }
 </style>
