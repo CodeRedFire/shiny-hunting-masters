@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import Menu from "./components/Menu.vue";
+
+import Logo from "../components/Logo.vue";
 </script>
 
 <template>
-  <Menu></Menu>
-  <router-view />
+  <Logo></Logo>
+  EN
 </template>
 
 <style scoped>
