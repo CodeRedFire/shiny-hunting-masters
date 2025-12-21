@@ -5,5 +5,55 @@
     "hof": "Hall of Fame",
     "fr": "French",
     "en": "English"
+  },
+  "home": {
+    "titre": "Become the Shiny Hunting Master of Kanto!",
+    "s1p1": "In this unique event running throughout 2026, put your knowledge and skills as a Shiny Hunter to the test through two challenges.",
+    "s1p2": "The Gym Challenge",
+    "s1p3": "The Shiny Hunting Contest",
+    "s2p1": "Gym Challenge",
+    "s2p2": "Embark on a complete tour of the gyms and face each Gym Leader under their own rules:",
+    "s2p3": "👉 For each gym, you must obtain at least one shiny Pokémon of the Gym Leader’s type before you can earn the badge.",
+    "s2p4": "🔥 8 gyms.",
+    "s2p5": "✨ 8 types.",
+    "s2p6": "🏅 8 badges.",
+    "s2p7": "But the challenge doesn’t stop there…",
+    "s2p8": "Once all badges are secured, it’s time to head to the Pokémon League. The best trainers await you there, and there’s only one way to challenge them: mandatory shiny hunting, always respecting the type of each League member.",
+    "s2p9": "This challenge will test your patience, determination, and luck. Every shiny obtained is a victory, every badge a milestone, and every battle a step closer to legend.",
+    "s3p1": "Shiny Hunting Contest",
+    "s3p2": "Throughout the entire event, there is only one objective:",
+    "s3p3": "👉 capture as many shiny Pokémon as possible and accumulate the highest number of points.",
+    "s3p4": "Every encounter can change everything — every sparkle counts 💎",
+    "s3p5": "🧮 POINT SYSTEM",
+    "s3p6": "⭐ 1 point for each shiny Pokémon captured",
+    "s3p7": "🌟 3 points for each legendary shiny Pokémon",
+    "s3p8": "⚡ x2 multiplier for any shiny matching the current gym’s type",
+    "s3p9": "Strategy, endurance, and luck will be your greatest weapons. Should you secure points quickly or aim for the big win with a legendary? The choice is yours.",
+    "s3p10": "🏆 At the end of the contest, only one trainer will be able to claim dominance over the hunt and place their name at the top of the leaderboard.",
+    "s3p11": "✨ Prepare your Poké Balls, sharpen your RNG, and jump in:",
+    "s3p12": "the shiny hunt is on.",
+    "s3p13": "Reward Ribbons",
+    "s3p14": "Bronze - 25 points",
+    "s3p15": "Silver - 50 points",
+    "s3p16": "Gold - 75 points",
+    "s3p17": "Diamond - 100 points"
+  },
+  "hof": {
+    "waiting_members": "Waiting for its first members"
+  },
+  "rules": {
+    "titre": "Event Rules",
+    "r1": "Unique nickname per evolutionary line to avoid duplicates",
+    "r2": "All shiny hunting methods are allowed",
+    "r3": "Modified games, modded games, or fangames are prohibited",
+    "submission": "Shiny Submission",
+    "s1": "Send a photo of the Pokémon summary with the game name and the method used via:",
+    "s2": "By tagging ",
+    "s3": "with",
+    "s4": "In the channel"
+  },
+  "footer": {
+    "pkmn1": "Shiny Hunting Masters Kanto is not affiliated with Nintendo or The Pokémon Company.",
+    "pkmn2": "Pokémon is a registered trademark of Nintendo, GAME FREAK, Creatures Inc., and The Pokémon Company."
   }
 }
