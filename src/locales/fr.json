@@ -5,5 +5,40 @@
     "hof": "Panthéon",
     "fr": "Français",
     "en": "Anglais"
+  },
+  "home": {
+    "titre": "Devenez le maître de shasse de Kanto !",
+    "s1p1" : "Dans cet évènement unique durant sur tout 2026, mettez au défi vos connaissances et compétences de Shiny Hunter au travers de 2 épreuves.",
+    "s1p2": "Le Tour des Arènes",
+    "s1p3": "Le Concours de Shasse",
+    "s2p1": "Tour des arènes",
+    "s2p2": "Partez pour un tour complet des arènes et affrontez chaque Champion selon ses propres règles :",
+    "s2p3": "\uD83D\uDC49 Pour chaque arène, vous devrez obtenir au moins un Pokémon shiny du type du Champion avant de pouvoir décrocher son badge.",
+    "s2p4": "\uD83D\uDD25 8 arènes.",
+    "s2p5": "✨ 8 types.",
+    "s2p6": "\uD83C\uDFC5 8 badges.",
+    "s2p7": "Mais le défi ne s’arrête pas là…",
+    "s2p8": "Une fois les badges en poche, direction la Ligue Pokémon. Les meilleurs dresseurs vous y attendent, et une seule façon de les défier : shiny hunting obligatoire, toujours en respectant le type de chaque membre de la Ligue.",
+    "s2p9": "Ce défi mettra à l’épreuve votre patience, votre détermination et votre chance. Chaque shiny obtenu est une victoire, chaque badge une consécration, et chaque combat un pas de plus vers la légende.",
+    "s3p1": "Concours de Shasse",
+    "s3p2": "Pendant toute la durée de l’événement, un seul objectif :",
+    "s3p3": "\uD83D\uDC49 capturer un maximum de Pokémon shiny et accumuler le plus de points possible.",
+    "s3p4": "Chaque rencontre peut tout changer, chaque étincelle compte \uD83D\uDC8E",
+    "s3p5": "\uD83E\uDDEE SYSTÈME DE POINTS",
+    "s3p6": "⭐ 1 point pour chaque Pokémon shiny capturé",
+    "s3p7": "\uD83C\uDF1F 3 points pour chaque Pokémon shiny légendaire",
+    "s3p8": "⚡ Multiplicateur x2 pour tout shiny correspondant au type de l’arène en cours",
+    "s3p9": "Stratégie, endurance et chance seront vos meilleures armes. Faut-il sécuriser des points rapidement ou viser le gros coup avec un légendaire ? À vous de choisir.",
+    "s3p10": "\uD83C\uDFC6 À la fin du concours, un seul dresseur pourra se vanter d’avoir dominé la shasse et inscrit son nom au sommet du classement.",
+    "s3p11": "✨ Préparez vos Poké Balls, affûtez votre RNG et lancez-vous :",
+    "s3p12": "la chasse aux shiny est ouverte.",
+    "s3p13": "Rubans récompenses",
+    "s3p14": "Bronze - 25 points",
+    "s3p15": "Argent - 50 points",
+    "s3p16": "Or - 75 points",
+    "s3p17": "Diamant - 100 points"
+  },
+  "hof": {
+    "waiting_members": "En attente de ses premiers membres"
   }
 }

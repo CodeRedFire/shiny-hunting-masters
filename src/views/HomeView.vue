@@ -1,6 +1,8 @@
 <script setup lang="ts">
 
 import Logo from "../components/Logo.vue";
+import {useI18n} from "vue-i18n";
+const { t } = useI18n()
 </script>
 
 <template>
@@ -8,41 +10,27 @@ import Logo from "../components/Logo.vue";
     <Logo></Logo>
   </section>
   <section class="titre">
-    <h2>Devenez le maître de shasse de Kanto !</h2>
+    <h2>{{ t("home.titre") }}</h2>
   </section>
   <section class="texte">
-    <p>
-      Dans cet évènement unique durant sur tout 2026, mettez au défi vos connaissances et compétences de Shiny Hunter au
-      travers de 2 épreuves.
-    </p>
+    <p>{{ t("home.s1p1") }}</p>
     <ul>
-      <li><b>Le Tour des Arènes</b></li>
-      <li><b>Le Concours de Shasse</b></li>
+      <li><b>{{ t("home.s1p2") }}</b></li>
+      <li><b>{{ t("home.s1p3") }}</b></li>
     </ul>
   </section>
   <section class="texte1">
-    <h3>Tour des arènes</h3>
+    <h3>{{ t("home.s2p1") }}</h3>
     <div class="split">
       <div>
-        <p>
-          Partez pour un tour complet des arènes et affrontez chaque Champion selon ses propres règles :
-        </p>
-        <p>👉 Pour chaque arène, vous devrez obtenir au moins un Pokémon shiny du type du Champion avant de pouvoir
-          décrocher son badge.</p>
-        <p>🔥 8 arènes.</p>
-        <p>✨ 8 types.</p>
-        <p>🏅 8 badges.</p>
-        <p>
-          Mais le défi ne s’arrête pas là…</p>
-        <p>
-          Une fois les badges en poche, direction la Ligue Pokémon. Les meilleurs dresseurs vous y attendent, et une
-          seule façon de les défier :
-          shiny hunting obligatoire, toujours en respectant le type de chaque membre de la Ligue.</p>
-
-        <p>
-          Ce défi mettra à l’épreuve votre patience, votre détermination et votre chance. Chaque shiny obtenu est une
-          victoire,
-          chaque badge une consécration, et chaque combat un pas de plus vers la légende.</p>
+        <p>{{ t("home.s2p2") }}</p>
+        <p>{{ t("home.s2p3") }}</p>
+        <p>{{ t("home.s2p4") }}</p>
+        <p>{{ t("home.s2p5") }}</p>
+        <p>{{ t("home.s2p6") }}</p>
+        <p>{{ t("home.s2p7") }}</p>
+        <p>{{ t("home.s2p8") }}</p>
+        <p>{{ t("home.s2p9") }}</p>
       </div>
       <div>
         <img src="/public/map.png" alt="Carte de Kanto" style="width: 100%;"/>
@@ -50,50 +38,43 @@ import Logo from "../components/Logo.vue";
     </div>
   </section>
   <section class="texte2">
-    <h3>Concours de Shasse</h3>
+    <h3>{{ t("home.s3p1")}}</h3>
     <div class="split">
       <div>
-        <p>Pendant toute la durée de l’événement, un seul objectif :</p>
-        <p>👉 capturer un maximum de Pokémon shiny et accumuler le plus de points possible.</p>
+        <p>{{ t("home.s3p2")}}</p>
+        <p>{{ t("home.s3p3")}}</p>
+        <p>{{ t("home.s3p4")}}</p>
 
-        <p>Chaque rencontre peut tout changer, chaque étincelle compte 💎</p>
-
-        <h4>🧮 SYSTÈME DE POINTS</h4>
+        <h4>{{ t("home.s3p5")}}</h4>
 
         <ul>
-        <li>⭐ 1 point pour chaque Pokémon shiny capturé</li>
-
-        <li>🌟 3 points pour chaque Pokémon shiny légendaire</li>
-
-        <li>⚡ Multiplicateur x2 pour tout shiny correspondant au type de l’arène en cours</li>
+        <li>{{ t("home.s3p6")}}</li>
+        <li>{{ t("home.s3p7")}}</li>
+        <li>{{ t("home.s3p8")}}</li>
         </ul>
 
-        <p>Stratégie, endurance et chance seront vos meilleures armes.
-          Faut-il sécuriser des points rapidement ou viser le gros coup avec un légendaire ? À vous de choisir.</p>
-
-        <p>🏆 À la fin du concours, un seul dresseur pourra se vanter d’avoir dominé la shasse et inscrit son nom au
-          sommet du classement.</p>
-
-        <p>✨ Préparez vos Poké Balls, affûtez votre RNG et lancez-vous :
-          <b>la chasse aux shiny est ouverte</b>.</p>
+        <p>{{ t("home.s3p9")}}</p>
+        <p>{{ t("home.s3p10")}}</p>
+        <p>{{ t("home.s3p11")}}
+          <b>{{ t("home.s3p12")}}</b></p>
       </div>
       <div style="display: flex; flex-direction: row;gap: 20px; flex-wrap: wrap;">
-        <h4 style="width: 100%;">Rubans récompenses</h4>
+        <h4 style="width: 100%;">{{ t("home.s3p13")}}</h4>
         <div style="text-align: center">
           <img src="/public/ruban%20bronze.png" alt="Ruban bronze"/>
-          <div style="text-align: center;width: 100%;">Bronze - 25 points</div>
+          <div style="text-align: center;width: 100%;">{{ t("home.s3p14")}}</div>
         </div>
         <div style="text-align: center">
           <img src="/public/ruban%20argent.png" alt="Ruban argent"/>
-          <div style="text-align: center;width: 100%;">Argent - 50 points</div>
+          <div style="text-align: center;width: 100%;">{{ t("home.s3p15")}}</div>
         </div>
         <div style="text-align: center">
           <img src="/public/ruban%20or.png" alt="Ruban or"/>
-          <div style="text-align: center;width: 100%;">Or - 75 points</div>
+          <div style="text-align: center;width: 100%;">{{ t("home.s3p16")}}</div>
         </div>
         <div style="text-align: center">
           <img src="/public/ruban%20diamant.png" alt="Ruban diamant"/>
-          <div style="text-align: center;width: 100%;">Diamant - 100 points</div>
+          <div style="text-align: center;width: 100%;">{{ t("home.s3p17")}}</div>
         </div>
       </div>
     </div>
