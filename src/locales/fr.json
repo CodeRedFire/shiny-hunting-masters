@@ -51,5 +51,9 @@
     "s2": "En taggant ",
     "s3": "avec",
     "s4": "Sur le canal"
+  },
+  "footer": {
+    "pkmn1": "Shiny Hunting Masters Kanto n'est pas affilié avec Nintendo ou The Pokémon Company.",
+    "pkmn2": "Pokémon est une marque déposée de Nintendo, GAME FREAK, Creatures Inc. et The Pokémon Company."
   }
 }

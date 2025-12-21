@@ -9,7 +9,7 @@ const { t } = useI18n()
   <section class="logo">
     <Logo></Logo>
   </section>
-  <section style="display: flex; justify-content: center;">
+  <section style="display: flex; justify-content: center; margin-bottom: 60px;">
     <div style="width: 60%; min-width: 600px;">
       <h1>{{ t("rules.titre") }}</h1>
       <ul>
