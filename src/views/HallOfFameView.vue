@@ -9,7 +9,7 @@ const { t } = useI18n()
   <section class="logo">
     <Logo></Logo>
   </section>
-  <section style="text-align: center; padding-top: 40px; min-height: 46vh;">
+  <section style="text-align: center; padding-top: 40px; min-height: 48vh;">
     <span style="font-size: 3em;">{{  t("hof.waiting_members") }}</span>
   </section>
 </template>
