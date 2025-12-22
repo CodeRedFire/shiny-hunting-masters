@@ -7,8 +7,18 @@ const { t } = useI18n()
 <template>
   <footer class="footer">
     <div style="margin-bottom: 8px;">
-      <a href="https://discord.gg/WeUsqyez4B" style="margin-right: 12px;">Discord</a>
-      <a href="https://www.instagram.com/code_redfire/">Instagram</a>
+      <a href="https://discord.gg/WeUsqyez4B" style="margin-right: 12px;"
+         data-goatcounter-click="discord.gg"
+         data-goatcounter-referrer="discord"
+      >Discord</a>
+      <a href="https://www.instagram.com/code_redfire/"
+         data-goatcounter-click="instagram.com"
+         data-goatcounter-referrer="instagram"
+      >Instagram</a>
+      <a href="https://www.youtube.com/@ShinyHuntingMasters"
+         data-goatcounter-click="youtube.com"
+         data-goatcounter-referrer="youtube"
+      >Youtube</a>
     </div>
     <div>{{t("footer.pkmn1")}}</div>
     <div>{{t("footer.pkmn2")}}</div>

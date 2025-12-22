@@ -3,6 +3,26 @@
 import Logo from "../components/Logo.vue";
 import {useI18n} from "vue-i18n";
 const { t } = useI18n()
+
+import { onMounted, onBeforeUnmount } from 'vue'
+
+onMounted(() => {
+  const script = document.createElement('script')
+  script.async = true
+  script.src = '//gc.zgo.at/count.js'
+  script.dataset.goatcounter = 'https://shinyhuntingmasters.goatcounter.com/count'
+  script.dataset.goatcounterSettings = JSON.stringify({
+    path: '/shiny-hunting-masters/rules'
+  })
+
+  script.id = 'goatcounter-script'
+  document.head.appendChild(script)
+})
+
+onBeforeUnmount(() => {
+  const script = document.getElementById('goatcounter-script')
+  if (script) script.remove()
+})
 </script>
 
 <template>
@@ -30,9 +50,6 @@ const { t } = useI18n()
 
     </div>
   </section>
-  <script data-goatcounter="https://shinyhuntingmasters.goatcounter.com/count"
-          data-goatcounter-settings='{"path": "/shiny-hunting-masters/rules"}'
-          async src="//gc.zgo.at/count.js"></script>
 </template>
 
 <style scoped>
