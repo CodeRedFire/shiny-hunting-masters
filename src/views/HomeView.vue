@@ -79,6 +79,8 @@ const { t } = useI18n()
       </div>
     </div>
   </section>
+  <script data-goatcounter="https://shinyhuntingmasters.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </template>
 
 <style scoped>
