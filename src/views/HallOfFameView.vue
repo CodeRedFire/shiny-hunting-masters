@@ -32,9 +32,6 @@ onBeforeUnmount(() => {
   <section style="text-align: center; padding-top: 40px; min-height: 48vh;">
     <span style="font-size: 3em;">{{  t("hof.waiting_members") }}</span>
   </section>
-  <script data-goatcounter="https://shinyhuntingmasters.goatcounter.com/count"
-          data-goatcounter-settings='{"path": "/shiny-hunting-masters/hall-of-fame"}'
-          async src="//gc.zgo.at/count.js"></script>
 </template>
 
 <style scoped>

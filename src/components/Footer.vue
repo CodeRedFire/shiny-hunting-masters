@@ -11,11 +11,11 @@ const { t } = useI18n()
          data-goatcounter-click="discord.gg"
          data-goatcounter-referrer="discord"
       >Discord</a>
-      <a href="https://www.instagram.com/code_redfire/"
+      <a href="https://www.instagram.com/code_redfire/" style="margin-right: 12px;"
          data-goatcounter-click="instagram.com"
          data-goatcounter-referrer="instagram"
       >Instagram</a>
-      <a href="https://www.youtube.com/@ShinyHuntingMasters"
+      <a href="https://www.youtube.com/@ShinyHuntingMasters" style="margin-right: 12px;"
          data-goatcounter-click="youtube.com"
          data-goatcounter-referrer="youtube"
       >Youtube</a>

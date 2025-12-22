@@ -12,9 +12,30 @@ const changeLocale = (event: Event) => {
 
 <template>
   <nav class="menu">
-    <router-link to="/shiny-hunting-masters">{{ t('menu.home') }}</router-link>
-    <router-link to="/shiny-hunting-masters/rules">{{ t('menu.rules') }}</router-link>
-    <router-link to="/shiny-hunting-masters/hall-of-fame">{{ t('menu.hof') }}</router-link>
+    <router-link to="/shiny-hunting-masters"
+                 data-goatcounter-click="shm.com"
+                 data-goatcounter-referrer="home"
+    >{{ t('menu.home') }}</router-link>
+    <router-link to="/shiny-hunting-masters/rules"
+                 data-goatcounter-click="shm.com"
+                 data-goatcounter-referrer="rules"
+    >{{ t('menu.rules') }}</router-link>
+    <router-link to="/shiny-hunting-masters/hall-of-fame"
+                 data-goatcounter-click="shm.com"
+                 data-goatcounter-referrer="hall-of-fame"
+    >{{ t('menu.hof') }}</router-link>
+    <a href="https://discord.gg/WeUsqyez4B"
+       data-goatcounter-click="discord.gg"
+       data-goatcounter-referrer="discord"
+    >Discord</a>
+    <a href="https://www.instagram.com/code_redfire/"
+       data-goatcounter-click="instagram.com"
+       data-goatcounter-referrer="instagram"
+    >Instagram</a>
+    <a href="https://www.youtube.com/@ShinyHuntingMasters"
+       data-goatcounter-click="youtube.com"
+       data-goatcounter-referrer="youtube"
+    >Youtube</a>
     <select :value="locale" @change="changeLocale">
       <option
           v-for="l in availableLocales"

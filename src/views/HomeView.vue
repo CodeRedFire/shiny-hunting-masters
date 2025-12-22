@@ -99,6 +99,22 @@ onBeforeUnmount(() => {
       </div>
     </div>
   </section>
+
+  <section class="texte1">
+    <div class="split">
+      <div>
+        <h3>{{ t("home.s4p1")}}</h3>
+        <p>{{ t("home.s4p2")}}<a href="https://www.youtube.com/@ShinyHuntingMasters" style="color: #fbd171; font-weight: bold;"
+                                 data-goatcounter-click="youtube.com"
+                                 data-goatcounter-referrer="youtube"
+        >Youtube</a>{{ t("home.s4p3")}}</p>
+        <p><b>{{ t("home.s4p4")}}</b></p>
+      </div>
+      <div style="display: flex; justify-content: center;margin-top: 40px;">
+        <img src="/public/logo.png" alt="Carte de Kanto" style="width: 320px; "/>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>

@@ -36,7 +36,11 @@
     "s3p14": "Bronze - 25 points",
     "s3p15": "Argent - 50 points",
     "s3p16": "Or - 75 points",
-    "s3p17": "Diamant - 100 points"
+    "s3p17": "Diamant - 100 points",
+    "s4p1": "L’événement continue sur YouTube",
+    "s4p2": "Toutes les annonces des phases, des arènes et de la Ligue Pokémon seront faites sur ",
+    "s4p3": ", accompagnées de vidéos dédiées à l’événement.",
+    "s4p4": "\uD83D\uDC49 Abonnez-vous pour suivre l’événement et ne rien manquer !"
   },
   "hof": {
     "waiting_members": "En attente de ses premiers membres"
