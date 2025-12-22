@@ -80,6 +80,7 @@ const { t } = useI18n()
     </div>
   </section>
   <script data-goatcounter="https://shinyhuntingmasters.goatcounter.com/count"
+          data-goatcounter-settings='{"path": "/shiny-hunting-masters/"}'
           async src="//gc.zgo.at/count.js"></script>
 </template>
 
