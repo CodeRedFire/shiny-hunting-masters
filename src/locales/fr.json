@@ -43,7 +43,17 @@
     "s4p4": "\uD83D\uDC49 Abonnez-vous pour suivre l’événement et ne rien manquer !"
   },
   "hof": {
-    "waiting_members": "En attente de ses premiers membres"
+    "waiting_members": "En attente de ses premiers membres",
+    "badge": "Tour des arènes",
+    "badge_roche": "Badge Roche",
+    "badge_cascade": "Badge Cascade",
+    "badge_foudre": "Badge Foudre",
+    "badge_prisme": "Badge Prisme",
+    "badge_ame": "Badge Âme",
+    "badge_marais": "Badge Marais",
+    "badge_volcan": "Badge Volcan",
+    "badge_terre": "Badge Terre",
+    "contest": "Concours de Shasse"
   },
   "rules": {
     "titre": "Règles des évènements",

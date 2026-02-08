@@ -43,7 +43,17 @@
     "s4p4": "\uD83D\uDC49 Subscribe to follow the event and not miss anything !"
   },
   "hof": {
-    "waiting_members": "Waiting for its first members"
+    "waiting_members": "Waiting for its first members",
+    "badge": "Gym Challenge",
+    "badge_roche": "Boulder Badge",
+    "badge_cascade": "Cascade Badge",
+    "badge_foudre": "Thunder Badge",
+    "badge_prisme": "Rainbow Badge",
+    "badge_ame": "Soul Badge",
+    "badge_marais": "Marsh Badge",
+    "badge_volcan": "Volcano Badge",
+    "badge_terre": "Earth Badge",
+    "contest": "Shiny Hunting Contest"
   },
   "rules": {
     "titre": "Event Rules",
